@@ -183,7 +183,7 @@ footer a {
 .hero-header {
   position: relative;
   height: 100vh;
-  background: url("../images/code-bg (3).jpg") center/cover no-repeat;
+  background: url("../images/code-bg.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
