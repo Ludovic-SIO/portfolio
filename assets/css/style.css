@@ -1,0 +1,230 @@
+/* ===== RESET & GLOBAL ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+/* ===== NAVBAR ===== */
+.custom-nav {
+  background-color: #0d0d0d;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.custom-nav .nav-link {
+  color: #ddd !important;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.custom-nav .nav-link:hover,
+.custom-nav .nav-link.active {
+  color: #0d6efd !important;
+}
+
+.custom-nav .navbar-brand {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.custom-nav .btn {
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url("../images/bg.jpg") center/cover no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+header .btn {
+  margin-top: 1.5rem;
+}
+
+/* ===== SECTION BTS SIO ===== */
+#bts-sio {
+  background-color: #121212;
+  padding: 100px 0;
+}
+
+#bts-sio .container {
+  max-width: 1100px;
+}
+
+#bts-sio p.text-secondary {
+  color: #aaa;
+  margin-bottom: 3rem;
+}
+
+.bts-box {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bts-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(13,110,253,0.25);
+}
+
+.bts-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bts-list li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.bts-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+#bts-sio p {
+  color: #ddd;
+  line-height: 1.7;
+}
+
+#bts-sio h5 {
+  border-left: 3px solid #0d6efd;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #111;
+  color: #bbb;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+footer a {
+  color: #fff;
+  margin: 0 5px;
+  font-size: 1.3rem;
+}
+
+.footer-privacy {
+  display: block;
+  margin-bottom: 8px;
+  color: #bbb;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+/* ===== HERO HEADER (avec fond code) ===== */
+.hero-header {
+  position: relative;
+  height: 100vh;
+  background: url("../images/code-bg (3).jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Superposition sombre pour la lisibilité */
+.hero-header .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom right, rgba(0,0,0,0.75), rgba(0,0,0,0.6));
+  z-index: 1;
+}
+
+/* Contenu du texte */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #e6e6e6;
+}
+
+.hero-header .btn {
+  margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-header {
+    height: 90vh;
+    padding: 0 1rem;
+  }
+  .hero-header h1 {
+    font-size: 2.2rem;
+  }
+  .hero-header p {
+    font-size: 1rem;
+  }
+}
+
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 992px) {
+  header h1 { font-size: 2.2rem; }
+  header p { font-size: 1rem; }
+  #bts-sio { padding: 70px 0; }
+  .bts-box { padding: 1.5rem; }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compétences - Portfolio Ludovic</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.skill-icon {
+  transition: transform 0.3s;
+}
+.skill-icon:hover {
+  transform: scale(1.2);
+}
+.section-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top custom-nav">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-white" href="index.html">LUDOVIC<span class="text-primary">.C</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="projets.html">Projets</a></li>
+        <li class="nav-item"><a class="nav-link" href="stages.html">Stages</a></li>
+        <li class="nav-item"><a class="nav-link active" href="competences.html">Compétences</a></li>
+        <li class="nav-item"><a class="nav-link" href="veille.html">Veille</a></li>
+        <li class="nav-item"><a class="nav-link" href="parcours.html">Parcours</a></li>
+        <li class="nav-item"><a class="nav-link" href="certifications.html">Certifications</a></li>
+      </ul>
+    </div>
+    <a href="contact.html" class="btn btn-outline-primary ms-3">Contact</a>
+  </div>
+</nav>
+
+<main class="container" style="padding-top: 140px;">
+
+  <!-- Compétences de base -->
+  <section class="text-center mb-5">
+    <h2 class="section-title">Compétences de base</h2>
+    <p>Langages et technologies que je maîtrise et leur utilité :</p>
+  </section>
+  <section class="row text-center g-4 mb-5">
+    <div class="col-6 col-md-3">
+      <i class="fab fa-html5 fs-1 text-danger skill-icon"></i>
+      <p><strong>HTML</strong></p>
+      <small>Structure et contenu des pages web</small>
+    </div>
+    <div class="col-6 col-md-3">
+      <i class="fab fa-css3-alt fs-1 text-primary skill-icon"></i>
+      <p><strong>CSS</strong></p>
+      <small>Mise en forme et design des pages web</small>
+    </div>
+    <div class="col-6 col-md-3">
+      <i class="fab fa-js fs-1 text-warning skill-icon"></i>
+      <p><strong>JavaScript</strong></p>
+      <small>Interactions et dynamisme sur les sites web</small>
+    </div>
+    <div class="col-6 col-md-3">
+      <i class="fab fa-php fs-1 text-indigo skill-icon"></i>
+      <p><strong>PHP</strong></p>
+      <small>Programmation côté serveur et gestion de bases de données</small>
+    </div>
+    <div class="col-6 col-md-3">
+      <i class="fab fa-python fs-1 text-info skill-icon"></i>
+      <p><strong>Python</strong></p>
+      <small>Programmation générale, scripts et automatisation</small>
+    </div>
+    <div class="col-6 col-md-3 skill-card">
+      <i class="fas fa-code fs-1 text-secondary skill-icon"></i>
+      <p><strong>C#</strong></p>
+      <small>Programmation orientée objet et applications diverses</small>
+    </div>
+    <div class="col-6 col-md-3">
+      <i class="fas fa-database fs-1 text-success skill-icon"></i>
+      <p><strong>MySQL</strong></p>
+      <small>Stockage et gestion des données relationnelles</small>
+    </div>
+  </section>
+
+  <!-- Compétences avancées -->
+  <section class="text-center mb-5">
+    <h2 class="section-title">Compétences avancées</h2>
+    <p>Frameworks, bibliothèques et outils modernes :</p>
+  </section>
+  <section class="row text-center g-4 mb-5">
+    <div class="col-6 col-md-3">
+      <i class="fab fa-symfony fs-1 text-dark skill-icon"></i>
+      <p><strong>Symfony</strong></p>
+      <small>Framework PHP pour développer des applications web robustes</small>
+    </div>
+    <div class="col-6 col-md-3">
+      <i class="fab fa-react fs-1 text-info skill-icon"></i>
+      <p><strong>React</strong></p>
+      <small>Bibliothèque JS pour créer des interfaces interactives</small>
+    </div>
+    <div class="col-6 col-md-3">
+      <i class="fab fa-github fs-1 text-warning skill-icon"></i>
+      <p><strong>GitHub</strong></p>
+      <small>Gestion de versions et collaboration sur les projets</small>
+   </div>
+    <div class="col-6 col-md-3">
+      <i class="fas fa-docker fs-1 text-primary skill-icon"></i>
+      <p><strong>Docker</strong></p>
+      <small>Conteneurisation pour déploiement et tests</small>
+    </div>
+    <div class="col-6 col-md-3">
+      <i class="fab fa-node-js fs-1 text-success skill-icon"></i>
+      <p><strong>Node.js</strong></p>
+      <small>Exécution JavaScript côté serveur</small>
+    </div>
+ 
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Ludovic CHAMPROBERT - Portfolio BTS SIO SLAM</p>
+  <a href="privacy.html" class="footer-privacy">Politique de confidentialité</a>
+  <a class="footer-social" href="https://github.com/Ludovic-SIO" target="_blank"><i class="fab fa-github"></i></a>
+  <a class="footer-social" href="https://www.linkedin.com/in/ludovic-champrobert/" target="_blank"><i class="fab fa-linkedin"></i></a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+<script src="assets/js/consent.js" defer></script>
+</body>
+</html>
