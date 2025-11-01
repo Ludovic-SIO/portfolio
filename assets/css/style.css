@@ -662,3 +662,14 @@ footer .text-muted.small {
 }
 
 
+/* Forcer le texte blanc sur les boutons primaires, même en mode clair */
+.btn-primary,
+.btn-primary:visited {
+  color: #fff !important;
+}
+
+/* S'assurer que le survol reste lisible */
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #fff !important;
+}
